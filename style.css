@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+}
+body {
+  background-color: #2f2e41;
+  width: 1000px;
+  margin: 0 auto 10px auto;
+  font-family: "JetBrains Mono", monospace;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+h1 {
+  color: #ffffff;
+  font-size: 30px;
+  margin-bottom: 70px;
+  font-weight: bold;
+}
+h1 span {
+  color: #00bfa6;
+}
+div p {
+  color: #c2c2c2;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+div p span {
+  color: #00bfa6;
+  font-weight: bold;
+}
+div p strong {
+  color: #c2c2c2;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  margin-top: 65px;
+}
+nav ul a {
+  text-decoration: none;
+  color: #ffffff;
+}
+nav ul a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 4px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 60px;
+}
+hr {
+  margin: 100px auto 20px auto;
+
+  width: 560px;
+  border-color: #00bfa6;
+}
+footer {
+  text-align: center;
+}
+footer p {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 28px;
+}
+footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.lock {
+  width: 51px;
+  height: 62px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.primeiro-paragrafo {
+  margin-bottom: 20px;
+}
+
+.main-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  gap: 80px;
+}
